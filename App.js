@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, FlatList, ScrollView, StyleSheet } from 'react-native';
+import ChatBox from './ChatBox.js'
 
 export default function App() {
   const [suwat, setSuwat] = useState('');
